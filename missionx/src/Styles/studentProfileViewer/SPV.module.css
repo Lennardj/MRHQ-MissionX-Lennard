@@ -1,0 +1,87 @@
+/* Profile view Page component */
+.profileViewerDisplay {
+  display: flex;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Card Compnent */
+.card {
+  border: 2px solid #e2dfdf;
+  border-radius: 20px;
+  width: 22.5625rem;
+  text-align: center;
+  margin-top: 8.6875rem;
+  margin-left: 21.4375rem;
+  height: 32.9375rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imgcontainer {
+  margin-top: 5.125rem;
+}
+.btncontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.btn1 {
+  border: 2px solid #43c0f6;
+  border-radius: 4px;
+  background: none;
+  color: #43c0f6;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-weight: 800;
+  font-style: bold;
+  width: 10.9375rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.btn1:hover {
+  box-shadow: 0px 15px 20px rgba(67, 192, 246, 0.4);
+  transform: translateY(-3px);
+}
+.img {
+  width: 50%;
+  margin-bottom: 4.3125rem;
+}
+.img:hover {
+  transform: translateY(-1px);
+}
+
+/* Info Conponent */
+.infocontainer {
+  border: 2px solid #e2dfdf;
+  width: 51.25rem;
+  height: 38.25rem;
+  border-radius: 20px;
+  margin-top: 139px;
+  margin-left: 4.375rem;
+  margin-bottom: 10.625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.infocontainer h1 {
+  color: #707070;
+  margin-top: 54px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+.table {
+  padding: 0;
+  padding-left: 50px;
+  /* margin: 0 auto; */
+  width: 100%;
+  border-spacing: 20px;
+}
+.table td:first-child {
+  color: #a5a5a5;
+  font-size: 30px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.table td:nth-child(2) {
+  color: #707070;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 50px;
+}

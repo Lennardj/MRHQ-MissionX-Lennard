@@ -1,0 +1,46 @@
+/* Footer Section */
+.footerContainer {
+  /* position: absolute; */
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.footer {
+  background-color: #b2e4fa;
+  display: flex;
+  justify-content: center;
+  gap: 7.5rem;
+  font-size: 1.25rem;
+  padding-left: 17.625rem;
+  padding-right: 14.5rem;
+  padding-top: 9.375rem;
+  padding-bottom: 12rem;
+}
+.footerHeader {
+  font-size: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+.footerContent {
+  padding-bottom: 0.25rem;
+}
+
+.projectTitle {
+  padding-top: 3%;
+}
+
+.projectTitle h1 {
+  margin-left: 28.125rem;
+  height: 400px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  color: slategrey;
+}
+.projectSubtitle {
+  font-size: 20px;
+  color: slategrey;
+  margin-left: 450px;
+}
+.levelupworksSection .footerHeader {
+  padding: 0;
+}

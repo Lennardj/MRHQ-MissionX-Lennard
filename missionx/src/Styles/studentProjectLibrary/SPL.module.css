@@ -1,0 +1,123 @@
+/* Project title Component*/
+.projectTitle {
+  padding-top: 1.5%;
+  padding-bottom: 3%;
+  margin-left: 30%;
+}
+.projectTitle h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.625rem;
+  color: #6c6c6c;
+}
+.projectTitle p {
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  color: #767676;
+}
+/* Filter Form  COmponent*/
+
+.filterForm {
+  width: 15%;
+  margin-left: 14%;
+  margin-right: 5%;
+  /* margin-right: 1.25rem; */
+}
+.filterForm label {
+  font-size: 0.875rem;
+  font-family: "open Sans";
+  padding-left: 0.625rem;
+  color: #767676;
+}
+
+.filterFormHeader {
+  font-family: "open Sans";
+  font-size: 1rem;
+  color: #707070;
+  padding-bottom: 0.0625rem;
+  padding-top: 0.625rem;
+  /* margin-top: 3.125rem; */
+}
+.filterFormLabels {
+  color: black;
+}
+.filterFormUnderline {
+  color: black;
+  width: 10rem;
+  margin-bottom: 0.625rem;
+}
+.filterFormInputAndLabelContainer {
+  padding-bottom: 0.3125rem;
+}
+
+/* #####  Buttons*/
+/*  Level of dificulties buttons component*/
+/* .btn {
+  margin-left: 2%;
+} */
+/* Project Render amount component  */
+/* .btn2 {
+  margin-right: 12%;
+} */
+
+.leftbtn,
+.rightbtn {
+  border: none;
+  opacity: 1;
+  padding: 5px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.leftbtn:nth-child(2),
+.rightbtn:nth-child(2) {
+  border-left: 1px grey solid;
+  border-right: 1px grey solid;
+}
+
+.leftbtn:hover,
+.rightbtn:hover {
+  background-color: rgb(107, 181, 255);
+}
+
+/* ##### */
+
+/* Project Page component */
+.projectcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.projectitem {
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+}
+.projectitem h2 {
+  color: #707070;
+}
+
+/* Back to top Component */
+.backToTop {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  padding-bottom: 7%;
+}
+
+/* Project Library component that house all other component*/
+.projectDisplay {
+  display: flex;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+.btnAndProject {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
